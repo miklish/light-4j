@@ -100,6 +100,7 @@
     </properties>
 
     <modules>
+        <module>jwtcert</module>
         <module>config</module>
         <module>utility</module>
         <module>http-string</module>
@@ -145,6 +146,11 @@
     <dependencyManagement>
         <dependencies>
             <!-- Modules in this project -->
+            <dependency>
+                <groupId>com.networknt</groupId>
+                <artifactId>jwtcert</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.networknt</groupId>
                 <artifactId>config</artifactId>

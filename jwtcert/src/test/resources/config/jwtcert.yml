@@ -1,0 +1,2 @@
+# Enable jwtcert handler or not, default to false
+enabled: true
